@@ -1,5 +1,19 @@
 # GenAI ❤️ f-string: Desarrollando con IA Generativa sin cajas negras
 
+Taller impartido en la PyConES 2024. TLDR: los frameworks de IA Generativa
+generan "framework-lock" muy rápido y en ocasiones no merece la pena. Se puede
+reimplementar en python de forma más legible. Ver Descripción para más detalle
+
+## Instrucciones
+
+Este repositorio contiene un devcontainer configurado de manera que puedes
+desarrollar el taller en local con VSCode (o forks) o en GitHub Codespaces sin
+instalar nada más.
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/double-thinker/genai_loves_fstrings/?quickstart=1)
+
+## Description
+
 Los _frameworks_ de IA Generativa son demasiado "mágicos": ocultan detalles en
 pipelines aparentemente complejos. Operaciones simples como interpolaciones de
 texto (un `f-string`, vaya) se llaman `StringConcatenationManagerDeluxe`
